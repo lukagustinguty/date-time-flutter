@@ -1,0 +1,9 @@
+DATE FORMAT : Tips FORMAT
+https://www.flutterbeads.com/format-datetime-in-flutter/#:~:text=To%20format%20DateTime%20in%20Flutter%20using%20a%20standard%20format%2C%20you,method%20with%20providing%20the%20DateTime.
+
+Date Time Picker es lo mismo nada mas qu usa un calendar.
+
+DATE TIME PICKER IN SPANISH
+https://stackoverflow.com/questions/61529343/how-to-change-language-of-show-date-picker-in-flutter
+
+https://docs.flutter.dev/development/accessibility-and-localization/internationalization
