@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class TestPage extends StatelessWidget {
-  const TestPage({Key? key}) : super(key: key);
+  final String cobro;
+  const TestPage(this.cobro);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,11 @@ class TestPage extends StatelessWidget {
               texto,
             ),
           ),
-          Text(texto)
+          Center(
+              child: ListTile(
+            leading: Icon(Icons.abc),
+            title: Text(cobro),
+          ))
         ],
       ),
     );
